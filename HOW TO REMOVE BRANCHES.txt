@@ -1,0 +1,7 @@
+Remotely: 
+1- git push origin main :dev
+2- git push origin main :test
+
+Locally:
+1- git branch -d dev ---- or -D If there were files in "dev" that are not merged in "main"
+2- git branch -d test ---- or -D If there were files in "test" that are not merged in "main"
