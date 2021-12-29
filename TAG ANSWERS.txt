@@ -1,0 +1,12 @@
+List tags locally:
+git tag
+
+
+
+Deleting tags
+Locally:
+git tag -d <tagname>
+
+Remotely:
+git push origin --delete <tagname>
+git push origin :refs/tags/<tagname>
